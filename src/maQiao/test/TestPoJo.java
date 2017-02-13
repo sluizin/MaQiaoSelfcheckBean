@@ -23,7 +23,12 @@ public class TestPoJo {
 		pojoBean.score = 100;
 		System.out.println("idSafe:" + pojoBean.idSafe());
 	}
-
+	/**
+	 * PoJo Bean
+	 * @author Sunjian
+	 * @version 1.0
+	 * @since jdk1.78
+	 */
 	public static class PojoBean {
 		int id;
 		String name;
